@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Link from 'next/link'
 
 const Randing = () => {
   return (
@@ -11,7 +12,7 @@ const Randing = () => {
               <h1>안녕하세요</h1>
               <p>FrontEnd Developer 꿈꾸는</p>
               <p>김영웅의 포트폴리오 사이트입니다.</p>
-              <a href="/home" target="_blank">Home 가기</a>
+             <Link href="/home"><div>Home 가기</div></Link>
           </div>
       </div>
     </Container>
@@ -57,7 +58,8 @@ const Container = styled.div`
 
 .circle:hover span:nth-child(1) {
     border: none;
-    background: #84cdfa;
+    /* background: #84cdfa; */
+    background: black;
 }
 
 .square span:nth-child(2) {
@@ -74,7 +76,7 @@ const Container = styled.div`
 
 .circle:hover span:nth-child(2) {
     border: none;
-    background: #84cdfa;
+    background: black;
 }
 
 
@@ -93,7 +95,7 @@ const Container = styled.div`
 
 .circle:hover span:nth-child(3) {
     border: none;
-    background: #84cdfa;
+    background: black;
 }
 
 
@@ -116,7 +118,7 @@ const Container = styled.div`
   font-size: 12px;
   }
 }
-.content a {
+.content div {
     position: relative;
     display: inline-block;
     margin-top: 10px;
@@ -133,7 +135,7 @@ const Container = styled.div`
     }
 }
 
-.content a:hover {
+.content div:hover {
     background: white;
     color: #333;
 }
