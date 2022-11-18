@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import Header from "../components/Header"
 import Introduce from '../components/home/Introduce'
+import IntroImg from '../components/home/IntroImg'
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
       <HomeContainer>
         <HomeInfo>
           <Introduce/>
-          <div>이미지</div>
+          <IntroImg/>
         </HomeInfo>
         <div className='textContainer'>
           <HomeText>
@@ -46,9 +47,14 @@ justify-content: space-between;
 `
 const HomeInfo = styled.div`
   display: flex;
-  padding: 0 2%;
-  margin-top: 60px;
+  padding: 0 3%;
   justify-content: space-between;
+  @media screen and (max-width: 911px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 `
 
 const HomeText = styled.div`
