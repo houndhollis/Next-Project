@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Link from 'next/link'
 
 const Introduce = () => {
   return (
@@ -11,7 +12,7 @@ const Introduce = () => {
               항상 더 발전있는 개발자 입니다.     
         </span>
         <div>
-            <button>About me !</button>
+            <button><Link href={'/aboutme'}>About me !</Link></button>
         </div>
       </IntroTextContainer>
     </Container>
@@ -21,7 +22,7 @@ const Introduce = () => {
 export default Introduce
 
 const Container = styled.div`
-margin-top: 120px;
+margin-top: 90px;
 `
 const IntroTextContainer = styled.div`
   letter-spacing: -0.3px;
@@ -31,6 +32,7 @@ const IntroTextContainer = styled.div`
     }
     & span {
         font-size: 18px;
+        line-height: 26px;
     }
     & button {
         width: 300px;
@@ -39,13 +41,13 @@ const IntroTextContainer = styled.div`
         background-color: #fff;
         font-size: 20px;
         border: 1px solid black;
-        border-radius: 10px;
+        border-radius: 5px;
         transition: 0.3s;
         cursor: pointer;
         &:hover {
             color: #fff;
             background-color: black;
-            transform: scale(1.05);
+            transform: scale(1.03);
         }
     }
     @media screen and (max-width:892px){

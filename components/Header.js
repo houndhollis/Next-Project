@@ -1,16 +1,18 @@
 import styled from 'styled-components'
-
+import Link from 'next/link'
 
 const Header = () => {
 
   return (
     <HeaderContainer>
       <HeaderInnerContainer>
-        <LogoBox>KimHero</LogoBox>
+        <LogoBox>
+          <Link href={'/home'}>KimHero</Link>
+        </LogoBox>
         <ButtonBox>
-          <span>About Me</span>
-          <span>Stack</span>
-          <span>Projects</span>
+          <Link href={'/aboutme'}><span>About Me</span></Link>
+          <Link href={'/aboutme'}><span>Stack</span></Link>
+          <Link href={'/aboutme'}><span>Projects</span></Link>
         </ButtonBox>
       </HeaderInnerContainer>
     </HeaderContainer>
@@ -48,7 +50,7 @@ const LogoBox = styled.div`
 `
 
 const ButtonBox = styled.div`
- & span + span {
-   margin-left: 10px;
+ & a + a {
+   margin-left: 15px;
  }
 `
