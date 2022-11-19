@@ -1,9 +1,10 @@
 import Layout from '../components/Layout'
+import AboutTitle from '../components/about/aboutTitle'
 
 const AboutMe = () => {
     return (
        <Layout>
-           <div>안녕</div>
+           <AboutTitle/>
        </Layout>
     )
 }
