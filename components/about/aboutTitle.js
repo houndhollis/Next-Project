@@ -1,32 +1,41 @@
 import Image from 'next/image'
 import styled from 'styled-components'
 import TitleSubText from './titleSubText'
+import SubTextBottom from './subTextBottom'
 
 const AboutTitle = () => {
   return (
-        <TitleInner>
-            <TitleImg>
-                <Image src='/myImage.jpeg' width={500} height={600} alt='myProfile'/>
-            </TitleImg>
-            <TitleText>
-                <span>안녕하세요 개발자 김영웅입니다.</span>
-                <p>협업 활동을 좋아하며 , 새로운 지식 습득을 즐깁니다🔥 </p>
-                <TitleInfoText>
-                   <TitleSubText/>
-                </TitleInfoText>
-            </TitleText>
-        </TitleInner>
+    <AboutMeContainer>
+      <AboutTopContainer>
+        <TitleImg>
+            <Image src='/myImage.jpeg' width={500} height={600} alt='myProfile'/>
+        </TitleImg>
+        <TitleText>
+            <span>안녕하세요 개발자 김영웅입니다.</span>
+            <p>협업 활동을 좋아하며, 새로운 지식 습득을 즐깁니다🔥 </p>
+            <TitleInfoText>
+                <TitleSubText/>
+            </TitleInfoText>
+        </TitleText>
+      </AboutTopContainer>
+      <AboutBottomContainer>
+        <SubTextBottom/>
+      </AboutBottomContainer>
+    </AboutMeContainer>
   )
 }
 
 export default AboutTitle
 
-
-const TitleInner = styled.div`
+const AboutMeContainer = styled.div`
   max-width: 1280px;
   width: 100%;
-  margin: 100px auto;
+  margin: 80px auto; 
   padding: 0 4%;
+`
+
+
+const AboutTopContainer = styled.div`
   display: flex;
   @media screen and (max-width:1000px){
     margin: 50px auto;
@@ -82,7 +91,8 @@ const TitleText = styled.div`
 `
 const TitleInfoText = styled.div`
   margin-top: 30px;
-  & div {
-      
-  }
+
+`
+const AboutBottomContainer = styled.div`
+
 `
