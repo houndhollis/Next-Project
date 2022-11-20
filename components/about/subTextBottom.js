@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import PreButton from '../PreButton'
+import Link from 'next/link'
 
 const SubTextBottom = () => {
     return (
@@ -13,6 +15,7 @@ const SubTextBottom = () => {
                저의 목표이며 어느정도 실력도 있으며 같이 협업 하는 것을 좋아합니다. 빨리가고 싶으면 혼자가고 멀리가고 싶으면 같이 가라는 말이 있습니다.
                저는 같은 직업, 같은 공부를 하는 개발자 즐겁게 작업하는 그런 개발자가 되고싶습니다. 
          </span>
+         <Link href={'/stack'}><PreButton/></Link>
        </TextContainer>
     )
 }
@@ -23,6 +26,9 @@ const TextContainer = styled.div`
   width: 100%;
   margin-top: 30px;
   margin-bottom: -20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
   & div {
     font-size: 28px;
     font-weight: 600;
@@ -36,3 +42,4 @@ const TextContainer = styled.div`
     letter-spacing: 0.3px;
   }
 `
+
