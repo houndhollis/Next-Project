@@ -32,6 +32,7 @@ const TextContainer = styled.div`
     display: inline-block;
     margin-bottom: 20px;
     color: #333;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 0.3px;
   }
 `

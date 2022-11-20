@@ -11,7 +11,7 @@ const Header = () => {
         </LogoBox>
         <ButtonBox>
           <Link href={'/aboutme'}><span>About Me</span></Link>
-          <Link href={'/aboutme'}><span>Stack</span></Link>
+          <Link href={'/stack'}><span>Stack</span></Link>
           <Link href={'/aboutme'}><span>Projects</span></Link>
         </ButtonBox>
       </HeaderInnerContainer>
