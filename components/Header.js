@@ -5,16 +5,16 @@ const Header = () => {
 
   return (
     <HeaderContainer>
-      <HeaderInnerContainer>
-        <LogoBox>
-          <Link href={'/home'}>KimHero</Link>
-        </LogoBox>
-        <ButtonBox>
-          <Link href={'/aboutme'}><span>About Me</span></Link>
-          <Link href={'/stack'}><span>Stack</span></Link>
-          <Link href={'/aboutme'}><span>Projects</span></Link>
-        </ButtonBox>
-      </HeaderInnerContainer>
+        <HeaderInnerContainer>
+            <LogoBox>
+               <Link href={'/home'}>KimHero</Link>
+            </LogoBox>
+            <ButtonBox>
+                <Link href={'/aboutme'}><span>About Me</span></Link>
+                <Link href={'/stack'}><span>Stack</span></Link>
+                <Link href={'/projects'}><span>Projects</span></Link>
+            </ButtonBox>
+        </HeaderInnerContainer>
     </HeaderContainer>
   )
 }

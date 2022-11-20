@@ -8,7 +8,7 @@ const StackPage = () => {
        <Layout>
            <StackContainer>
                <StackInnerContainer>
-                   <h1>Stack</h1>
+                   <h1>🧐 Stack</h1>
                    <span>좋은 UI 와 기능으로 사용자의 만족도를 높이기</span>
                    <FrontEndItem>
                       <h3>FrontSkills</h3>
