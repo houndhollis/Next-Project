@@ -38,15 +38,16 @@ const IntroTextContainer = styled.div`
         width: 300px;
         margin-top: 30px;
         padding: 7px 0;
-        background-color: #fff;
+        background-color: #151515;
         font-size: 20px;
-        border: 1px solid black;
+        border: 1px solid #eee;
         border-radius: 5px;
+        color: #eee;
         transition: 0.3s;
         cursor: pointer;
         &:hover {
-            color: #fff;
-            background-color: black;
+            color: #151515;
+            background-color: #eee;
             transform: scale(1.03);
         }
     }

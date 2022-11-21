@@ -26,7 +26,7 @@ export default TitleSubText
 const SubText = styled.div`
   & div {
     font-size: 30px;
-    background-color: #a3cac142;
+    background-color: #a08ea842;
     padding:0 5px;
 
   }
@@ -39,6 +39,5 @@ const SubText = styled.div`
   & li {
     margin-left: -20px;
     line-height: 30px;
-    color: #333;
   }
 `

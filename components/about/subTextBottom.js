@@ -32,18 +32,18 @@ const TextContainer = styled.div`
   margin-bottom: -20px;
 `
 const InnerText = styled.div`
-  background-color: #f8f8f8;
+  background-color: #252525;
   border-radius: 10px;
   padding: 20px;
 & div {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #dadada;
   }
   &  span {
     display: inline-block;
     margin-bottom: 20px;
-    color: #333;
     font-weight: 500;
     letter-spacing: 0.3px;
   }

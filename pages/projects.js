@@ -1,9 +1,10 @@
 import Layout from "../components/Layout"
+import ProjectDetail from '../components/projectItem/projectDetail'
 
 const Projects = () => {
   return (
     <Layout>
-        드디어 마지막 프로젝트 칸반!
+        <ProjectDetail/>
     </Layout>
   )
 }

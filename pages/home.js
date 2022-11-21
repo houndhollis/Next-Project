@@ -81,6 +81,7 @@ const HomeText = styled.div`
   line-height:clamp(2rem,22vw,16rem);
   float:left;
   margin-top:100%;
+  color: #eee;
 }
 
 .text:nth-child(1) {

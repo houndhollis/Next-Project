@@ -85,7 +85,6 @@ const TitleText = styled.div`
     }
   }
   & p {
-    color: #333;
     margin: 0;
   }
 `

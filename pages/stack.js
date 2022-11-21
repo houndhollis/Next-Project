@@ -55,6 +55,7 @@ const FrontEndItem = styled.div`
   border: 2px dashed #666;
   border-radius: 20px;
   padding: 20px;
+  background-color: #252525;
   & div {
       font-size: 18px;
   }
