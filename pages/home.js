@@ -1,11 +1,13 @@
 import styled from 'styled-components'
 import Header from "../components/Header"
+import MetaHead from '../components/MetaHead'
 import Introduce from '../components/home/Introduce'
 import IntroImg from '../components/home/IntroImg'
 
 const Home = () => {
   return (
     <div>
+      <MetaHead/>
       <Header/>
       <HomeContainer>
         <HomeInfo>

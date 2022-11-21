@@ -1,3 +1,4 @@
+import MetaHead from "./MetaHead"
 import Header from "./Header"
 import Footer from "./Footer"
 import styled from 'styled-components'
@@ -6,6 +7,7 @@ const Layout = ({children}) => {
 
   return (
     <LayoutContainer>
+      <MetaHead/>
       <Header/>
         <ChildrenBox>{children}</ChildrenBox>
       <Footer/>
