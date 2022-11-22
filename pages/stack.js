@@ -28,7 +28,7 @@ export default StackPage
 
 const StackContainer = styled.div`
   width: 100%;
-  min-height: calc(100vh - 180px);
+  min-height: calc(100vh - 160px);
   max-width: 1280px;
   margin: 0px auto;
   padding: 0 2%;
@@ -39,7 +39,7 @@ const StackInnerContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 40px;
   flex-direction:column;
   @media screen and (max-width:400px ){
