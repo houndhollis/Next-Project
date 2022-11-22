@@ -1,13 +1,22 @@
 import styled from 'styled-components'
+import { useState } from 'react'
 
 const Footer = () => {
+
+  const [email,setEmail] = useState('Email')
+  
+  const handleEmail = () => {
+    setEmail('hollis9797@naver.com')
+  }
+
   return (
     <FooterContainer>
       <FooterInnerContainer>
         <span>KimHero Contact</span>
          <FooterSpanBox>
-           <a target='_blank' href='https://blog.naver.com/hollis9797'><span>Blog</span></a>
+           <span onMouseMove={handleEmail} >{email}</span>
            <a target='_blank' href='https://github.com/houndhollis'><span>Github</span></a>
+           <a target='_blank' href='https://blog.naver.com/hollis9797'><span>Blog</span></a>
          </FooterSpanBox>
       </FooterInnerContainer>
     </FooterContainer>
@@ -36,7 +45,7 @@ const FooterInnerContainer = styled.div`
   }
 `
 const FooterSpanBox = styled.div`
- & a + a {
+ & span {
    margin-left: 10px;
  }
 `
