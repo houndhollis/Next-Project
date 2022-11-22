@@ -29,16 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/aboutme.js"
-    ],
-    "/projects": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projects.js"
-    ],
-    "/stack": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/stack.js"
     ]
   },
   "ampFirstPages": []

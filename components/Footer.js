@@ -42,9 +42,17 @@ const FooterInnerContainer = styled.div`
   align-items: center;
   & > span {
     font-size: 25px;
+    @media screen and (max-width: 450px){
+      display: none;
+    }
   }
 `
 const FooterSpanBox = styled.div`
+  @media screen and (max-width: 450px){
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
  & span {
    margin-left: 10px;
  }
