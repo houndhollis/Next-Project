@@ -11,7 +11,7 @@ const AboutTitle = () => {
             <Image src='/myImage.jpeg' width={500} height={600} alt='myProfile'/>
         </TitleImg>
         <TitleText>
-            <span>안녕하세요 개발자 김영웅입니다.</span>
+            <span>프론트엔드 개발자 김영웅입니다.</span>
             <p>협업 활동을 좋아하며, 새로운 지식 습득을 즐깁니다🔥 </p>
             <TitleInfoText>
                 <TitleSubText/>

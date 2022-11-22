@@ -7,6 +7,9 @@ const ProjectItem = () => {
               <div></div>
           </ImgContainer>
           <TextContainer>
+            <div className=''>
+
+            </div>
             <h1>Puppy Buddy</h1>
             <h3>강아지 친구 만들어 같이 산책하는 서비스</h3>
             <span>2022.09 ~ 2022.10</span>
