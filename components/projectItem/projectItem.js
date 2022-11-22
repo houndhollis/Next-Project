@@ -81,6 +81,7 @@ const TextContainer = styled.div`
       & h1 {
           margin: 0;
       }
+      padding: 10px 20px;
     }
     & .item-text {
         background-color: #303030;
