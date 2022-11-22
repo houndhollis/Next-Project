@@ -49,11 +49,19 @@ const ItemContainer = styled.div`
   border-radius: 20px;
   display: flex;
   margin-bottom: 30px;
+  @media screen and (max-width:1025px){
+      flex-direction:column;
+      height: 100%;
+  }
 `
 
 const ImgContainer = styled.div`
   padding: 30px;
   width: 75%;
+  @media screen and (max-width:1025px){
+      width: 100%;
+      height: 400px;
+  }
   & div {
       height: 100%;
       border-radius: 20px;
@@ -69,10 +77,14 @@ const ImgContainer = styled.div`
 const TextContainer = styled.div`
     width: 100%;
     padding: 10px 40px 10px 20px; 
-
+    @media screen and (max-width:1025px){
+      & h1 {
+          margin: 0;
+      }
+    }
     & .item-text {
         background-color: #303030;
-        padding: 20px 20px;
+        padding: 10px 20px;
         margin-top: 30px;
         border-radius: 10px;
         & span {
