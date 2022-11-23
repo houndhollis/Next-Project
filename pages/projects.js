@@ -1,13 +1,16 @@
 import Layout from "../components/Layout"
 import styled from "styled-components"
 import ProjectItem from "../components/projectItem/projectItem"
+import { PROJECT } from "../constant"
 
 const Projects = () => {
   return (
     <Layout>
       <ProjectContainer>
         <h2>나의 프로젝트</h2>
-        <ProjectItem/>
+        {PROJECT.map((props,idx)=>(
+          <ProjectItem key={idx} {...props}/>
+        ))}
       </ProjectContainer>
     </Layout>
   )
