@@ -11,6 +11,14 @@ export const PROJECT = [
         site:'http://seb39-main-019-front.s3-website.ap-northeast-2.amazonaws.com/'
     },
     {
-
+        title:'Omoide 📗',
+        subTitle:'간단하게 기록하는 커뮤니티 서비스',
+        projectImg:'/OmoideLogo.png',
+        date:'2022.10 ~ 2022.10',
+        description:'혼자서 React,node.js 를 이용하여 회원가입, 로그인, 글 작성, 수정 및 삭제, 프로필 수정 등의 페이지 로 구성된 페이지 입니다. Mongo DB, firebase 를 이용했고 댓글 기능을 통해 다른 사용자와 소통이 가능합니다. ',
+        skills:'React, Redux-toolkit, Emotion, node.js, MongoDB, mongoose, firebase 네이버클라우드',
+        make:'회원가입, 로그인, 로그아웃, 프로필 변경, 사진등록, 글 작성, 상세 페이지',
+        gitURL:'https://github.com/houndhollis/ReactCommunity-Toy',
+        site:'https://react-omoide.herokuapp.com/'
     }
 ]
