@@ -16,7 +16,9 @@ const StackPage = () => {
                       <div>📗 FramWork / Library :<p> React, Redux, React-query, Next.js, Recoil, Zustand</p></div>
                       <div>📘 MarkUp :<p> HTML5, CSS3, SCSS, Emotion, Styled-Components</p></div>
                       <div>📙 Tool :<p> Git, Github, Notion, Discord</p></div>
-                    <Link href={'/projects'}><PreButton/></Link>
+                      <FrontBtn>
+                        <Link href={'/projects'}><PreButton/></Link>
+                      </FrontBtn>
                    </FrontEndItem>
                </StackInnerContainer>
            </StackContainer>
@@ -73,4 +75,8 @@ const FrontEndItem = styled.div`
           color: #8b118b;
       }
   }
+`
+const FrontBtn = styled.div`
+ display: flex;
+ justify-content: flex-end;
 `

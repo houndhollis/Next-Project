@@ -19,7 +19,9 @@ const SubTextBottom = () => {
                     일원이 되어서 사용자에게 최고의 UX를 선사할 수 있고 협업을 같이 하고 싶은 그런 개발자가 되고 싶습니다.  
               </span>
           </InnerText>
-          <Link href={'/stack'}><PreButton/></Link>
+          <InnerBtn>
+              <Link href={'/stack'}><PreButton/></Link>
+          </InnerBtn>
        </TextContainer>
     )
 }
@@ -47,5 +49,9 @@ const InnerText = styled.div`
     font-weight: 500;
     letter-spacing: 0.3px;
   }
-`
+  `
+const InnerBtn = styled.div`
+ display: flex;
+ justify-content: flex-end;
+`;
 
