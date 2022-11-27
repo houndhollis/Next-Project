@@ -1,5 +1,5 @@
 # Next-Project
-Next.js 를 포트폴리오 입니다.
+Next.js 를 이용한 포트폴리오 사이트 입니다.
 
 
 ## 개발기간
