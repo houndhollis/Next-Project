@@ -7,7 +7,7 @@ const TitleSubText = () => {
             <h3>코드스테이츠(Code States)</h3>
             <span>2022.04 ~ 2022.10</span>
             <ul>
-                <li>Pre , Main 두번의 React 프로젝트로 백엔드와 협업을 통해 개발 경험을 체득</li>
+                <li>Pre, Main 두번의 React 프로젝트로 백엔드와 협업을 통해 개발 경험을 체득</li>
                 <li>혼자 공부하는 것이 아닌 동기들과 소통하며 학습을 진행 하여 커뮤니티의 중요도 이해</li>
                 <li>프론트 엔드 개발자로서 알아야 할 기초 CS 지식 및 네트워크,알고리즘 학습</li>
                 <li>기본 HTML5, CSS3, JavaScript 주요 문법등 웹 개발을 위한 내용 학습</li>

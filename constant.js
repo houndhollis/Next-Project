@@ -19,6 +19,6 @@ export const PROJECT = [
         skills:'React, Redux-toolkit, Emotion, node.js, MongoDB, mongoose, firebase 네이버클라우드',
         make:'회원가입, 로그인, 로그아웃, 프로필 변경, 사진등록, 글 작성, 상세 페이지',
         gitURL:'https://github.com/houndhollis/ReactCommunity-Toy',
-        site:'https://react-omoide.herokuapp.com/'
+        site:'https://omoide.fly.dev/'
     }
 ]
